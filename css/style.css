@@ -1,0 +1,13 @@
+
+p {
+    display: inline-block;
+    color: black;
+    background-color: lightblue;
+    padding: 10px;
+    text-align: center;
+}
+
+body {
+    background-color: lightgray;
+ 
+  }
