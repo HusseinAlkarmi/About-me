@@ -2,8 +2,26 @@
 
 
 let age = Number(prompt("What is my age?"))
+if(age == 22){
 
-let darker = prompt("Black is darker than white right for me ?")
-let cigarette = prompt("Is Winston my favorite cigarette ?")
-let pinkColor = prompt("Is Pink really a Mahre ?")
-let spongeBob = prompt("Is SpongeBob my favorite character ?")
+}
+
+let movie = prompt("do i like watch movies?")
+if(movie == yes){
+
+}
+
+let smoke = prompt("do i smoke?")
+if(smoke == yes){
+
+}
+
+let programing = prompt("do i like programing?")
+if(programing == yes){
+
+}
+
+let food= prompt("do i like food?")
+if(food == yes){
+
+}
