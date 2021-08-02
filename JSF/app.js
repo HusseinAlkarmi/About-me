@@ -13,7 +13,7 @@ else {
     age = Number(prompt("What is my age? , choose between 22, 23, 24"))
     
 }
-console.log("the answer is 22")
+//console.log("the answer is 22")
 
 let smoke = prompt("do i smoke?").toLowerCase()
 
@@ -24,7 +24,7 @@ else {
     alert("wrong enter the answer again" )
     smoke = prompt("do i smoke?").toLowerCase()
 }
-console.log("the answer is no")
+//console.log("the answer is no")
 
 let movie = prompt("do i like watch movies?").toLowerCase()
 if(movie == "yes"){
@@ -34,7 +34,7 @@ else {
     alert("wrong enter the answer again" )
     movie = prompt("do i like watch movies?").toLowerCase()
 }
-console.log("the answer is yes")
+//console.log("the answer is yes")
 
 let programing = prompt("do i like programing?").toLowerCase()
 if(programing == "yes"){
@@ -44,7 +44,7 @@ else {
     alert("wrong enter the answer again" )
     programing = prompt("do i like programing?").toLowerCase()
 }
-console.log("the answer is yes")
+//console.log("the answer is yes")
 
 let food= prompt("do i like food?").toLowerCase()
 if(food == "yes"){
@@ -54,6 +54,6 @@ else {
     alert("wrong enter the answer again" )
     food= prompt("do i like food?").toLowerCase()
 }
-console.log("the answer is yes")
+//console.log("the answer is yes")
 
 alert("Thank you " + name)
