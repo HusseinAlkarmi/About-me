@@ -2,45 +2,59 @@
 
 let count = 0;
 
+function Q1(){
 let name = prompt("Whats your name?").toLowerCase()
 alert("Welcome to my website " + name)
 
+}
 
-let smoke = prompt("do i smoke?").toLowerCase()
 
-if(smoke == "no"){
+function Q2(){
+    let smoke = prompt("do i smoke?").toLowerCase()
+
+    if(smoke == "no"){
     alert("right its " + smoke )
        count++;
-}
-else {   
+    }
+    else {   
     alert("wrong enter the answer again" )
     smoke = prompt("do i smoke?").toLowerCase()
+    }
 }
 //console.log("the answer is no")
 
-let movie = prompt("do i like watch movies?").toLowerCase()
-if(movie == "yes"){
+
+
+
+function Q3(){
+    let movie = prompt("do i like watch movies?").toLowerCase()
+    if(movie == "yes"){
     alert("right its " + movie )
        count++;
 
-}
-else {   
+    }
+    else {   
     alert("wrong enter the answer again" )
     movie = prompt("do i like watch movies?").toLowerCase()
+    }
 }
 //console.log("the answer is yes")
 
-let programing = prompt("do i like programing?").toLowerCase()
-if(programing == "yes"){
+
+
+function Q4(){
+    let programing = prompt("do i like programing?").toLowerCase()
+    if(programing == "yes"){
     alert("right its " + programing )
        count++;
-}
-else {
+    }
+    else {
     alert("wrong enter the answer again" )
     programing = prompt("do i like programing?").toLowerCase()
+    }
 }
 //console.log("the answer is yes")
-
+function Q5(){
 let food= prompt("do i like food?").toLowerCase()
 if(food == "yes"){
     alert("right its " + food )  
@@ -50,9 +64,10 @@ else {
     alert("wrong enter the answer again" )
     food= prompt("do i like food?").toLowerCase()
 }
+}
 //console.log("the answer is yes")
 
-
+function Q6(){
 let pet = prompt("do i have a pet?").toLowerCase()
 if(pet== "yes"){
     alert("right its " + pet )  
@@ -62,7 +77,9 @@ else {
     alert("wrong enter the answer again" )
     pet= prompt("do i have a pet?").toLowerCase()
 }
+}
 
+function Q7(){
 let age = Number(prompt("What is my age?"))
 
 if(age == 22){
@@ -89,11 +106,12 @@ else {
     if(age != 22)
     alert("the right answer for my age is 22" ) 
 }
+}
 
 
 //console.log("the answer is 22")
 
-
+function Q8(){
 let favCar = prompt("guess my favorite car u can choose one of (mazda, ford, golf, doodge, chevrolet, kia)").toLowerCase()
 
 let arrayCar = ['kia', 'ford', 'doodge', 'mercedes', 'rangerover', 'toyota'];
@@ -126,7 +144,16 @@ if(boolean == false){
     alert("the right answer is ford, kia and doodge" )
 
 }
+}
 
-
+Q1();
+Q2();
+Q3();
+Q4();
+Q5();
+Q6();
+Q7();
+Q8();
 
 alert("Thank you " + name + " your right answers are " + count + " out of 7")
+
