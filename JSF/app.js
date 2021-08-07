@@ -89,10 +89,7 @@ else {
     if(age != 22)
     alert("the right answer for my age is 22" ) 
 }
-
-
 //console.log("the answer is 22")
-
 
 let favCar = prompt("guess my favorite car u can choose one of (mazda, ford, golf, doodge, chevrolet, kia)").toLowerCase()
 

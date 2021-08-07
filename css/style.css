@@ -1,13 +1,83 @@
-
-p {
-    display: inline-block;
-    color: black;
-    background-color: lightblue;
-    padding: 10px;
-    text-align: center;
+#listCar{
+    padding: 5px 20px 5px 20px; 
+    background-color: aliceblue;
+     margin-top: 10px;
+     margin-bottom: 0px;
+     margin-right: 600px;
+     margin-left: 600px;
+     text-align: center;
+     
 }
 
+#bio{
+    display: inline-block;
+    color: black;
+    background-color: aliceblue;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+#info ul li{
+    display: inline;
+}
+
+#info{
+    background-color: rgba(16, 8, 131, .4);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
 body {
-    background-color: lightgray;
+  
+    background-image: url(https://i.pinimg.com/originals/d5/f0/81/d5f0818ca64f466872c3e5a84aa60937.jpg);
  
   }
+
+  header{
+    text-align: center;
+    
+  }
+
+  h1{
+    color: aliceblue;
+    font-size: 100px;
+  }
+
+  body{
+    color:black;
+  }
+
+ #center{
+    text-align: center;
+ }
+
+ #list{
+   background-color: aliceblue;
+    padding: 10px 5px 10px 10px; 
+    width: 180px;
+    margin-left: 655px;
+    text-align: center;
+    
+ }
+
+
+
+footer{
+    text-align: center;
+ color: aliceblue; 
+ font-size: 20px;
+  padding: 10px;
+}
+
+a{
+    color: red;
+    font-size: 20px;
+   
+}
+
+
+#list ol li{
+    padding-bottom: 5px;
+ }
