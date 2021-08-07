@@ -3,8 +3,7 @@
     /* background-color: aliceblue; */
      margin-top: 10px;
      margin-bottom: 0px;
-     margin-right: 600px;
-     margin-left: 620px;
+     margin-left: 50px;
      text-align: center;
      color: white;
 }
@@ -49,15 +48,11 @@ body {
     color:black;
   }
 
- #center{
-    text-align: center;
- }
-
  #list{
    /* background-color: aliceblue; */
     padding: 10px 5px 10px 10px; 
     width: 180px;
-    margin-left: 620px;
+    margin-left: 635px;
     text-align: center;
     color: white;
     

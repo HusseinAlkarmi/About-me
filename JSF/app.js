@@ -5,7 +5,6 @@ let count = 0;
 function Q1(){
 let name = prompt("Whats your name?").toLowerCase()
 alert("Welcome to my website " + name)
-
 }
 
 
